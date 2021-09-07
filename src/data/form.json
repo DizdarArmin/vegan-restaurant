@@ -1,0 +1,17 @@
+{
+  "name": {
+    "label": "First name",
+    "type": "text",
+    "placeholder": "John"
+  },
+  "surname": {
+    "label": "Last name",
+    "type": "text",
+    "placeholder": "Doe"
+  },
+  "email": {
+    "label": "E-mail",
+    "type": "email",
+    "placeholder": "john@doe.com"
+  }
+}

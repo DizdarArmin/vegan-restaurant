@@ -1,0 +1,118 @@
+{
+  "dishes": {
+    "name": "dishes",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus qui vitae nisi quae at exercitationem deserunt. Perferendis hic eligendi eum laudantium facere maiores. Ad magni impedit minima sed quam repellat distinctio asperiores libero? Pariatur reprehenderit laboriosam vitae ducimus aspernatur inventore atque molestias harum, optio eum, modi fugiat nesciunt quis cumque!",
+    "image": "/images/dishes.jpg",
+    "heroImage": "images/dishes-hero-image.jpg",
+    "allProducts": [
+      {
+        "name": "Stuffed Sweet Potato with Hummus Dressing",
+        "slug": "stuffed-sweet-potato",
+        "shortDescription": "Short description",
+        "description": "Long description",
+        "image": "/images/dishes/stuffed-potato.jpeg",
+        "ingredients": [
+          "1 large sweet potato, scrubbed",
+          "¾ cup chopped kale",
+          "1 cup canned black beans, rinsed",
+          "¼ cup hummus",
+          "2 tablespoons water"
+        ],
+        "nutrition": {
+          "size": "1 Stuffed Sweet Potato",
+          "perServing": {
+            "calories": "472g",
+            "protein": "21.1g",
+            "carbohydrates": "85.3g",
+            "dietaryFiber": "22.1g",
+            "sugars": "19.9g",
+            "fat": "7g",
+            "saturatedFat": "1.2g",
+            "vitaminAiu": "35809.9IU",
+            "vitaminC": "55.1mg",
+            "folate": "201.6mcg",
+            "calcium": "191mg",
+            "iron": " 6.7mg",
+            "magnesium": "98.9mg",
+            "potassium": "1672.7mg",
+            "sodium": "489.1mg",
+            "thiamin": "0.6mg"
+          }
+        }
+      },
+
+      {
+        "name": "Black Bean-Quinoa Bowl",
+        "slug": "black-bean-quinoa-bowl",
+        "shortDescription": "Short description",
+        "description": "Long description",
+        "image": "/images/dishes/black-bean-quinoa.jpg",
+        "ingredients": [
+          "1 cup cooked quinoa",
+          "⅓ cup canned chickpeas, rinsed and drained",
+          "½ cup cucumber slices",
+          "½ cup cherry tomatoes, halved",
+          "¼ avocado, diced",
+          "3 tablespoons hummus",
+          "1 tablespoon finely chopped roasted red pepper",
+          "1 tablespoon lemon juice",
+          "1 tablespoon water, plus more if desired",
+          "1 teaspoon chopped fresh parsley (Optional)",
+          "Pinch of salt",
+          "Pinch of ground pepper"
+        ],
+        "nutrition": {
+          "size": "About 2 Cups",
+          "perServing": {
+            "calories": "500g",
+            "protein": "20.4g",
+            "carbohydrates": "73.6g",
+            "dietaryFiber": "19.6g",
+            "sugars": "10.7g",
+            "fat": "16.2g",
+            "saturatedFat": "2.4g",
+            "vitaminAiu": "391IU",
+            "vitaminC": "16mg",
+            "folate": "238mcg",
+            "calcium": "114mg",
+            "iron": " 6.5mg",
+            "magnesium": "138.8mg",
+            "potassium": "1086.3mg",
+            "sodium": "611.8mg",
+            "thiamin": "0.5mg"
+          }
+        }
+      }
+    ]
+  },
+
+  "drinks": {
+    "name": "drinks",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus qui vitae nisi quae at exercitationem deserunt. Perferendis hic eligendi eum laudantium facere maiores. Ad magni impedit minima sed quam repellat distinctio asperiores libero? Pariatur reprehenderit laboriosam vitae ducimus aspernatur inventore atque molestias harum, optio eum, modi fugiat nesciunt quis cumque!",
+    "image": "/images/drinks.jpg",
+    "heroImage": "images/drinks-hero-image.jpg",
+    "allProducts": [
+      {
+        "name": "Wine",
+        "slug": "wine",
+        "shortDescription": "Short description",
+        "description": "Long description",
+        "image": "/images/dishes/stuffed-potato.jpeg"
+      },
+      {
+        "name": "OtherWine",
+        "slug": "winee",
+        "shortDescription": "Short description",
+        "description": "Long description",
+        "image": "/images/dishes/stuffed-potato.jpeg"
+      }
+    ]
+  },
+
+  "deserts": {
+    "name": "deserts",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus qui vitae nisi quae at exercitationem deserunt. Perferendis hic eligendi eum laudantium facere maiores. Ad magni impedit minima sed quam repellat distinctio asperiores libero? Pariatur reprehenderit laboriosam vitae ducimus aspernatur inventore atque molestias harum, optio eum, modi fugiat nesciunt quis cumque!",
+    "image": "/images/drinks.jpg",
+    "heroImage": "images/drinks-hero-image.jpg"
+  }
+}

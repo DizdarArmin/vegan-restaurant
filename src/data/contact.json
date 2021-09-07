@@ -1,0 +1,12 @@
+{
+  "name": "contact",
+  "image": "/images/chef.jpg",
+  "hours": {
+    "mondayToFriday": ["Monday to Friday", "08:00 - 20:00"],
+    "saturdays": ["Saturdays", "09:00 - 22:00"],
+    "sundays": ["Sundays", "10:00 - 22:00"]
+  },
+  "address":{
+    
+  }
+}
