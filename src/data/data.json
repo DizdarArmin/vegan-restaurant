@@ -3,6 +3,7 @@
     "name": "dishes",
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus qui vitae nisi quae at exercitationem deserunt. Perferendis hic eligendi eum laudantium facere maiores. Ad magni impedit minima sed quam repellat distinctio asperiores libero? Pariatur reprehenderit laboriosam vitae ducimus aspernatur inventore atque molestias harum, optio eum, modi fugiat nesciunt quis cumque!",
     "image": "/images/dishes.jpg",
+    "heroImageLow": "images/low-dishes.jpg",
     "heroImage": "images/dishes-hero-image.jpg",
     "allProducts": [
       {
@@ -367,6 +368,7 @@
     "name": "drinks",
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus qui vitae nisi quae at exercitationem deserunt. Perferendis hic eligendi eum laudantium facere maiores. Ad magni impedit minima sed quam repellat distinctio asperiores libero? Pariatur reprehenderit laboriosam vitae ducimus aspernatur inventore atque molestias harum, optio eum, modi fugiat nesciunt quis cumque!",
     "image": "/images/drinks.jpg",
+    "heroImageLow": "images/low-drinks.jpg",
     "heroImage": "images/drinks-hero-image.jpg",
     "allProducts": [
       {
@@ -430,6 +432,7 @@
     "name": "deserts",
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus qui vitae nisi quae at exercitationem deserunt. Perferendis hic eligendi eum laudantium facere maiores. Ad magni impedit minima sed quam repellat distinctio asperiores libero? Pariatur reprehenderit laboriosam vitae ducimus aspernatur inventore atque molestias harum, optio eum, modi fugiat nesciunt quis cumque!",
     "image": "/images/deserts.jpg",
+    "heroImageLow": "images/low-deserts.jpg",
     "heroImage": "images/deserts-hero-image.jpg",
     "allProducts": [
       {

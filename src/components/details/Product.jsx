@@ -1,8 +1,7 @@
 import { useParams, Link } from "react-router-dom";
 
 export default function Product({ item }) {
-  const { category, product } = useParams();
-  console.log(product);
+  const { category } = useParams();
 
   const { name, shortDescription, image, slug } = item;
 

@@ -10,7 +10,7 @@ export default function ProductsScreen() {
 
   if (!menu) return <PageNotFound />;
 
-  const { name, heroImage, allProducts, description } = menu;
+  const { name, heroImage, heroImageLow, allProducts, description } = menu;
 
   function MapProducts() {
     if (allProducts) {
@@ -22,7 +22,7 @@ export default function ProductsScreen() {
 
   return (
     <div>
-      <Banner image={heroImage} title={name} />
+      <Banner image={heroImage} lowImage={heroImageLow} title={name} />
 
       <div className="container">
         <p className="row description">{description}</p>

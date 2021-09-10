@@ -1,12 +1,17 @@
-import HeroImage from "../images/hero.jpg";
+import lowImage from "../images/hero-low.jpg";
+import image from "../images/hero.jpg";
+import useProgressiveImg from "./ProgressiveImage";
 export default function Hero() {
+  let [src, { blur }] = useProgressiveImg(lowImage, image);
   const style = {
     height: `90vh`,
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
     alignItems: "center",
-    backgroundImage: `url(${HeroImage})`,
+    backgroundImage: `url(${src})`,
+    filter: blur ? "blur(20px)" : "none",
+    transition: blur ? "none" : "filter 0.5s ease-in",
     backgroundSize: "cover",
     padding: "24px !important",
   };

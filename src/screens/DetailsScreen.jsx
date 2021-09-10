@@ -18,9 +18,9 @@ export default function Details() {
   if (!item) return <PageNotFound />;
 
   return (
-    <div>
+    <div className="container-fluid">
       <Banner image={image} title={name} />
-      <div className="container-fluid">
+      <div className="container padding-24 col-12 margin-0">
         <div className="padding-24 container details">
           <p>{description}</p>
           <div className="row align-center">

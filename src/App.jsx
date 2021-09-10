@@ -1,5 +1,4 @@
 import "./App.css";
-import data from "./data/data.json";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
@@ -12,7 +11,6 @@ import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 
 export default function App() {
-  console.log(data);
   return (
     <Router>
       <div className="App">
@@ -25,6 +23,7 @@ export default function App() {
             <Route path="/:category/:slug" component={Details} />
           </Switch>
         </ScrollToTop>
+        <Footer />
       </div>
     </Router>
   );

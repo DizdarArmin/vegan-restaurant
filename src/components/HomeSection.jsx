@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 
 export default function HomeSection({ data, direction }) {
-  console.log(data);
   const { name, description, image } = data;
   const linkStyle = {
     color: "green",
