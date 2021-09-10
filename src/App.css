@@ -3,12 +3,11 @@
   padding: 0 !important;
 }
 .App {
-  height: 100% !important;
+  height: fit-content;
 }
 .navbar {
   height: 100%;
   width: 100%;
-  background-color: rgb(47, 114, 40);
 }
 ul li {
   list-style-type: none;
@@ -28,26 +27,21 @@ ul li {
   align-items: center !important;
 }
 
-footer {
-  position: absolute;
-  bottom: 0;
-}
-
 .container {
   margin: 0 auto !important;
 }
 .padding-24 {
   padding: 24px !important;
 }
-.product-card {
-  border: 0.2px solid lightgreen;
-}
+
 .product-name,
 .product-description {
-  color: green;
+  color: black;
 }
 .product-image {
-  padding-right: 8px !important;
+  border: 1px solid gray;
+
+  height: auto;
 }
 .product-details {
   padding: 24px !important;
@@ -64,7 +58,7 @@ footer {
   align-items: center;
 }
 .pageNotFound {
-  height: 100vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -79,4 +73,43 @@ a:focus {
 }
 .date-time {
   max-width: 500px;
+}
+input {
+  padding-left: 5px !important;
+}
+.btn {
+  padding: 16px !important;
+}
+
+h1 {
+  font-size: 3rem;
+}
+.nutrition-table {
+  max-width: 500px;
+  border: 1px solid gray;
+  margin-top: 24px !important;
+}
+.ingredients {
+  margin-top: 24px !important;
+}
+
+.button {
+  width: 220px;
+  margin: 0 auto !important;
+}
+.back {
+  width: 120px;
+  margin-top: 24px !important;
+}
+.menu-btn {
+  width: 100%;
+}
+
+.badge {
+  padding: 10px !important;
+  margin: 8px !important;
+}
+
+.btn {
+  border-radius: 25px !important;
 }

@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "site": "vegan-restaurant-site",
+    "public": "build",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

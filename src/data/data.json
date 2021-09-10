@@ -8,78 +8,355 @@
       {
         "name": "Stuffed Sweet Potato with Hummus Dressing",
         "slug": "stuffed-sweet-potato",
-        "shortDescription": "Short description",
-        "description": "Long description",
+        "shortDescription": "This stuffed sweet potato with black beans, kale and hummus dressing is a fantastic",
+        "description": "This stuffed sweet potato with black beans, kale and hummus dressing is a fantastic",
         "image": "/images/dishes/stuffed-potato.jpeg",
         "ingredients": [
-          "1 large sweet potato, scrubbed",
-          "¾ cup chopped kale",
-          "1 cup canned black beans, rinsed",
-          "¼ cup hummus",
-          "2 tablespoons water"
+          "🥔 Sweet potato",
+          "🥬 Chopped kale",
+          "🥫 Black beans",
+          "🥣 Hummus",
+          "💧 Water"
         ],
         "nutrition": {
           "size": "1 Stuffed Sweet Potato",
-          "perServing": {
-            "calories": "472g",
-            "protein": "21.1g",
-            "carbohydrates": "85.3g",
-            "dietaryFiber": "22.1g",
-            "sugars": "19.9g",
-            "fat": "7g",
-            "saturatedFat": "1.2g",
-            "vitaminAiu": "35809.9IU",
-            "vitaminC": "55.1mg",
-            "folate": "201.6mcg",
-            "calcium": "191mg",
-            "iron": " 6.7mg",
-            "magnesium": "98.9mg",
-            "potassium": "1672.7mg",
-            "sodium": "489.1mg",
-            "thiamin": "0.6mg"
+
+          "calories": {
+            "title": "Calories",
+            "weight": "472g",
+            "percentage": "23%"
+          },
+          "protein": {
+            "title": "Protein",
+            "weight": 21.1,
+            "percentage": "23%"
+          },
+          "carbohydrates": {
+            "title": "Carbohydrates",
+            "weight": 85.9,
+            "percentage": "23%"
+          },
+          "dietaryFiber": {
+            "title": "Dietary Fiber",
+            "weight": 22.1,
+            "percentage": "23%"
+          },
+          "sugars": {
+            "title": "Sugars",
+            "weight": 19.9,
+            "percentage": "23%"
+          },
+          "fat": {
+            "title": "Fat",
+            "weight": 7,
+            "percentage": "23%"
+          },
+          "saturatedFat": {
+            "title": "Saturated Fat",
+            "weight": 1.2,
+            "percentage": "23%"
+          },
+
+          "vitaminD": {
+            "title": "Vitamin D",
+            "weight": "201.6mc ",
+            "percentage": "23%"
+          },
+          "calcium": {
+            "title": "Calcium",
+            "weight": 191,
+            "percentage": "23%"
+          },
+          "iron": {
+            "title": "Iron",
+            "weight": 6.7,
+            "percentage": "23%"
+          },
+          "potassium": {
+            "title": "Potassium",
+            "weight": "1672m",
+            "percentage": "23%"
+          },
+          "sodium": {
+            "title": "Sodium",
+            "weight": "489m",
+            "percentage": "23%"
+          },
+          "cholesterol": {
+            "title": "Cholesterol",
+            "weight": 25,
+            "percentage": "23%"
           }
         }
       },
 
       {
-        "name": "Black Bean-Quinoa Bowl",
-        "slug": "black-bean-quinoa-bowl",
-        "shortDescription": "Short description",
-        "description": "Long description",
+        "name": "Black Bean Quinoa Bowl",
+        "slug": "black-bean-bowl",
+        "shortDescription": "This black bean and quinoa bowl has many of the usual hallmarks of a taco salad, minus the fried bowl.",
+        "description": "This black bean and quinoa bowl has many of the usual hallmarks of a taco salad, minus the fried bowl. We've loaded it up with pico de gallo, fresh cilantro and avocado plus an easy hummus dressing to drizzle on top.",
         "image": "/images/dishes/black-bean-quinoa.jpg",
         "ingredients": [
-          "1 cup cooked quinoa",
-          "⅓ cup canned chickpeas, rinsed and drained",
-          "½ cup cucumber slices",
-          "½ cup cherry tomatoes, halved",
-          "¼ avocado, diced",
-          "3 tablespoons hummus",
-          "1 tablespoon finely chopped roasted red pepper",
-          "1 tablespoon lemon juice",
-          "1 tablespoon water, plus more if desired",
-          "1 teaspoon chopped fresh parsley (Optional)",
-          "Pinch of salt",
-          "Pinch of ground pepper"
+          "🥔 1 large sweet potato, scrubbed",
+          "🥬 ¾ cup chopped kale",
+          "🥫 1 cup canned black beans, rinsed",
+          "🥣 ¼ cup hummus",
+          "💧2 tablespoons water"
         ],
         "nutrition": {
-          "size": "About 2 Cups",
-          "perServing": {
-            "calories": "500g",
-            "protein": "20.4g",
-            "carbohydrates": "73.6g",
-            "dietaryFiber": "19.6g",
-            "sugars": "10.7g",
-            "fat": "16.2g",
-            "saturatedFat": "2.4g",
-            "vitaminAiu": "391IU",
-            "vitaminC": "16mg",
-            "folate": "238mcg",
-            "calcium": "114mg",
-            "iron": " 6.5mg",
-            "magnesium": "138.8mg",
-            "potassium": "1086.3mg",
-            "sodium": "611.8mg",
-            "thiamin": "0.5mg"
+          "size": "1 Stuffed Sweet Potato",
+
+          "calories": {
+            "title": "Calories",
+            "weight": "472g",
+            "percentage": "23%"
+          },
+          "protein": {
+            "title": "Protein",
+            "weight": 21.1,
+            "percentage": "23%"
+          },
+          "carbohydrates": {
+            "title": "Carbohydrates",
+            "weight": 85.9,
+            "percentage": "23%"
+          },
+          "dietaryFiber": {
+            "title": "Dietary Fiber",
+            "weight": 22.1,
+            "percentage": "23%"
+          },
+          "sugars": {
+            "title": "Sugars",
+            "weight": 19.9,
+            "percentage": "23%"
+          },
+          "fat": {
+            "title": "Fat",
+            "weight": 7,
+            "percentage": "23%"
+          },
+          "saturatedFat": {
+            "title": "Saturated Fat",
+            "weight": 1.2,
+            "percentage": "23%"
+          },
+
+          "vitaminD": {
+            "title": "Vitamin D",
+            "weight": "201.6mc ",
+            "percentage": "23%"
+          },
+          "calcium": {
+            "title": "Calcium",
+            "weight": 191,
+            "percentage": "23%"
+          },
+          "iron": {
+            "title": "Iron",
+            "weight": 6.7,
+            "percentage": "23%"
+          },
+          "potassium": {
+            "title": "Potassium",
+            "weight": "1672m",
+            "percentage": "23%"
+          },
+          "sodium": {
+            "title": "Sodium",
+            "weight": "489m",
+            "percentage": "23%"
+          },
+          "cholesterol": {
+            "title": "Cholesterol",
+            "weight": 25,
+            "percentage": "23%"
+          }
+        }
+      },
+      {
+        "name": "Roasted Root Veggies & Greens over Spiced Lentils",
+        "slug": "roasted-root-veggies",
+        "shortDescription": "Keep it vegan or add a drizzle of plain yogurt for extra richness.",
+        "description": "This earthy bowl of lentils bursting with Middle Eastern flavors is topped with leftover roasted root veggies from a large batch for an easy weeknight dinner. Keep it vegan or add a drizzle of plain yogurt for extra richness.",
+        "image": "/images/dishes/roasted-root.jpeg",
+        "ingredients": [
+          "Water",
+          "French green lentils",
+          "Lemon juice",
+          "Extra-virgin olive oil",
+          "Garlic",
+          "Roasted root vegetables",
+          "Chopped kale",
+          "Coriander",
+          "Pepper",
+          "Salt",
+          "Tahini",
+          "Fresh parsley"
+        ],
+        "nutrition": {
+          "size": "1 Stuffed Sweet Potato",
+
+          "calories": {
+            "title": "Calories",
+            "weight": "472g",
+            "percentage": "23%"
+          },
+          "protein": {
+            "title": "Protein",
+            "weight": 21.1,
+            "percentage": "23%"
+          },
+          "carbohydrates": {
+            "title": "Carbohydrates",
+            "weight": 85.9,
+            "percentage": "23%"
+          },
+          "dietaryFiber": {
+            "title": "Dietary Fiber",
+            "weight": 22.1,
+            "percentage": "23%"
+          },
+          "sugars": {
+            "title": "Sugars",
+            "weight": 19.9,
+            "percentage": "23%"
+          },
+          "fat": {
+            "title": "Fat",
+            "weight": 7,
+            "percentage": "23%"
+          },
+          "saturatedFat": {
+            "title": "Saturated Fat",
+            "weight": 1.2,
+            "percentage": "23%"
+          },
+
+          "vitaminD": {
+            "title": "Vitamin D",
+            "weight": "201.6mc ",
+            "percentage": "23%"
+          },
+          "calcium": {
+            "title": "Calcium",
+            "weight": 191,
+            "percentage": "23%"
+          },
+          "iron": {
+            "title": "Iron",
+            "weight": 6.7,
+            "percentage": "23%"
+          },
+          "potassium": {
+            "title": "Potassium",
+            "weight": "1672m",
+            "percentage": "23%"
+          },
+          "sodium": {
+            "title": "Sodium",
+            "weight": "489m",
+            "percentage": "23%"
+          },
+          "cholesterol": {
+            "title": "Cholesterol",
+            "weight": 25,
+            "percentage": "23%"
+          }
+        }
+      },
+      {
+        "name": "Curried Sweet Potato & Peanut Soup",
+        "slug": "curried-sweet-potato",
+        "shortDescription": "In this flavorful soup recipe, sweet potatoes simmer in a quick coconut curry, resulting in a creamy, thick broth punctuated by notes of garlic and ginger.",
+        "description": "In this flavorful soup recipe, sweet potatoes simmer in a quick coconut curry, resulting in a creamy, thick broth punctuated by notes of garlic and ginger. We love peanuts for their inexpensive price and versatile flavor. They're also a great source of protein--1 ounce has 7 grams",
+        "image": "/images/dishes/curried-sweet.jpeg",
+        "ingredients": [
+          "Canola oil",
+          "Yellow onion",
+          "Garlic",
+          "Fresh ginger",
+          "Red curry paste",
+          "Serrano chile",
+          "Sweet potatoes",
+          "Water",
+          "Coconut milk",
+          "Dry-roasted peanuts",
+          "White beans",
+          "Salt",
+          "Pepper",
+          "Cilantro",
+          "Roasted pumpkin seeds",
+          "Lime"
+        ],
+        "nutrition": {
+          "size": "1 Stuffed Sweet Potato",
+
+          "calories": {
+            "title": "Calories",
+            "weight": "472g",
+            "percentage": "23%"
+          },
+          "protein": {
+            "title": "Protein",
+            "weight": 21.1,
+            "percentage": "23%"
+          },
+          "carbohydrates": {
+            "title": "Carbohydrates",
+            "weight": 85.9,
+            "percentage": "23%"
+          },
+          "dietaryFiber": {
+            "title": "Dietary Fiber",
+            "weight": 22.1,
+            "percentage": "23%"
+          },
+          "sugars": {
+            "title": "Sugars",
+            "weight": 19.9,
+            "percentage": "23%"
+          },
+          "fat": {
+            "title": "Fat",
+            "weight": 7,
+            "percentage": "23%"
+          },
+          "saturatedFat": {
+            "title": "Saturated Fat",
+            "weight": 1.2,
+            "percentage": "23%"
+          },
+
+          "vitaminD": {
+            "title": "Vitamin D",
+            "weight": "201.6mc ",
+            "percentage": "23%"
+          },
+          "calcium": {
+            "title": "Calcium",
+            "weight": 191,
+            "percentage": "23%"
+          },
+          "iron": {
+            "title": "Iron",
+            "weight": 6.7,
+            "percentage": "23%"
+          },
+          "potassium": {
+            "title": "Potassium",
+            "weight": "1672m",
+            "percentage": "23%"
+          },
+          "sodium": {
+            "title": "Sodium",
+            "weight": "489m",
+            "percentage": "23%"
+          },
+          "cholesterol": {
+            "title": "Cholesterol",
+            "weight": 25,
+            "percentage": "23%"
           }
         }
       }
@@ -93,18 +370,58 @@
     "heroImage": "images/drinks-hero-image.jpg",
     "allProducts": [
       {
-        "name": "Wine",
-        "slug": "wine",
-        "shortDescription": "Short description",
-        "description": "Long description",
-        "image": "/images/dishes/stuffed-potato.jpeg"
+        "name": "Barclay",
+        "slug": "barclay",
+        "shortDescription": "It’s like having a dessert in a glass with all that yummy whipped cream and chocolate ice cream! Truly delicious. ",
+        "description": "Combined coffee liqueur, brandy, ice cream and double cream in a tall glass. Stirred until smooth. Topped with the dairy free whipped cream. Grated and sprinkled the vegan chocolate on top. ",
+        "image": "/images/drinks/Barclay.jpg",
+        "ingredients": [
+          "Coffee liqueur",
+          "Brandy",
+          "Dairy free chocolate ice cream",
+          "Almond cream",
+          "Flaked chocolate"
+        ]
       },
       {
-        "name": "OtherWine",
-        "slug": "winee",
-        "shortDescription": "Short description",
-        "description": "Long description",
-        "image": "/images/dishes/stuffed-potato.jpeg"
+        "name": "Momo Special",
+        "slug": "momo-special",
+        "shortDescription": "This cocktail with a handful of fresh mint makes it a perfect, if somewhat a labour-intensive drink for hot weather. ",
+        "description": "This cocktail with a handful of fresh mint makes it a perfect, if somewhat a labour-intensive drink for hot weather. ",
+        "image": "/images/drinks/momo-special.jpg",
+        "ingredients": [
+          "Vodka",
+          "Lemon juice",
+          "Syrup",
+          "Fresh mint",
+          "Soda",
+          "Oregano essential oil"
+        ]
+      },
+      {
+        "name": "Bloody Mary",
+        "slug": "bloody-mary",
+        "shortDescription": "One of the indisputably great cocktails, usually attributed to a bartender at Harry’s Bar in Paris in the 1920s.",
+        "description": "One of the indisputably great cocktails, usually attributed to a bartender at Harry’s Bar in Paris in the 1920s. I like to use my own homemade V8 juice and have included the recipe below under mixers.",
+        "image": "/images/drinks/bloody-mary.jpg",
+        "ingredients": [
+          "Vodka",
+          "Tomato juice",
+          "Lemon juice",
+          "Worcestershire sauce",
+          "Chilli sauce",
+          "Tabasco sauce",
+          "Celery salt",
+          "Black pepper"
+        ]
+      },
+      {
+        "name": "August Moon",
+        "slug": "august-moon",
+        "shortDescription": "There are many versions of August Moon, but this creation gives it a seasonal twist that makes the cocktail even more delicious.",
+        "description": "There are many versions of August Moon, but this creation gives it a seasonal twist that makes the cocktail even more delicious. The use of fresh ingredients makes the flavours intense, refreshing and fruity.",
+        "image": "/images/drinks/august-moon.jpg",
+        "ingredients": ["Bourbon", "Sake", "Orgeat syrup", "Lemon juice"]
       }
     ]
   },
@@ -112,7 +429,64 @@
   "deserts": {
     "name": "deserts",
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus qui vitae nisi quae at exercitationem deserunt. Perferendis hic eligendi eum laudantium facere maiores. Ad magni impedit minima sed quam repellat distinctio asperiores libero? Pariatur reprehenderit laboriosam vitae ducimus aspernatur inventore atque molestias harum, optio eum, modi fugiat nesciunt quis cumque!",
-    "image": "/images/drinks.jpg",
-    "heroImage": "images/drinks-hero-image.jpg"
+    "image": "/images/deserts.jpg",
+    "heroImage": "images/deserts-hero-image.jpg",
+    "allProducts": [
+      {
+        "name": "Cheesecake",
+        "slug": "cheescake",
+        "shortDescription": "It’s thick, creamy, and rich, without being heavy at all. ",
+        "description": "It’s thick, creamy, and rich, without being heavy at all. This vegan cheesecake recipe was actually inspired by the Cheesecake Factory’s New York Style cheesecake, which has the most delicious flavor (and also was the only vegan option available there!).",
+        "image": "/images/deserts/cheesecake.jpg",
+        "ingredients": [
+          "Dairy free cream cheese",
+          "Sugar",
+          "Corn starch",
+          "Dairy free milk",
+          "Lemon juice",
+          "Vanilla extract",
+          "Pie crust"
+        ]
+      },
+      {
+        "name": "Chocolate cake",
+        "slug": "chocolate-cake",
+        "shortDescription": "One of the indisputably great cocktails, usually attributed to a bartender at Harry’s Bar in Paris in the 1920s.",
+        "description": "The best chocolate cake recipe. Ever? There are plenty of claims for the best chocolate cake recipe. I get that. But with one bite of this decadent, moist chocolate cake with chocolate frosting, every single person around the table commented that this was the best chocolate cake they’d ever tasted.",
+        "image": "/images/deserts/chocolate.jpg",
+        "ingredients": [
+          "Flour",
+          "Sugar",
+          "Chocolate",
+          "Dairy free milk",
+          "Blueberries"
+        ]
+      },
+      {
+        "name": "Vanilla Pudding",
+        "slug": "vanilla-pudding",
+        "shortDescription": "One of the indisputably great cocktails, usually attributed to a bartender at Harry’s Bar in Paris in the 1920s.",
+        "description": "One of the indisputably great cocktails, usually attributed to a bartender at Harry’s Bar in Paris in the 1920s. I like to use my own homemade V8 juice and have included the recipe below under mixers.",
+        "image": "/images/deserts/pudding.jpg",
+        "ingredients": ["Sugar", "Cornstarch", "Salt", "Soy milk", "Vanila"]
+      },
+      {
+        "name": "Pancakes",
+        "slug": "pancakes",
+        "shortDescription": "One of the indisputably great cocktails, usually attributed to a bartender at Harry’s Bar in Paris in the 1920s.",
+        "description": "One of the indisputably great cocktails, usually attributed to a bartender at Harry’s Bar in Paris in the 1920s. I like to use my own homemade V8 juice and have included the recipe below under mixers.",
+        "image": "/images/deserts/pancakes.jpg",
+        "ingredients": [
+          "Flour",
+          "Sugar",
+          "Baking powder",
+          "Salt",
+          "Dairy free milk",
+          "Apple cider vinegar",
+          "Vanilla",
+          "Maple syrup"
+        ]
+      }
+    ]
   }
 }

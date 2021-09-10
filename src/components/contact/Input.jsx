@@ -6,7 +6,7 @@ export default function Input({ htmlProperties, handleChange }) {
       <input
         pattern=".{3,}"
         required
-        onChange={(event) => handleChange(event.target.value)}
+        onChange={(event) => handleChange(event)}
         type={type}
         placeholder={placeholder}
         className="form-control"

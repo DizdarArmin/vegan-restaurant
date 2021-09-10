@@ -16,7 +16,7 @@ export default function Product({ item }) {
             src={image}
           ></img>
         </div>
-        <div className="pt-2 col-12 col-md-9">
+        <div className="pt-2 pl-2 col-12 col-md-9">
           <h3 className="product-name">{name}</h3>
           <br />
           <p className="product-description">{shortDescription}</p>

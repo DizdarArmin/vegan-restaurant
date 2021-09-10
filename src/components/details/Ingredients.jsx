@@ -1,15 +1,13 @@
+import Pill from "./Pill";
 export default function Ingredients({ data }) {
   return (
-    <div>
+    <div className="col-12 ingredients">
       <h3>Ingredients</h3>
-      <ul>
+      <div>
         {data.map((item, i) => (
-          <li key={i}>
-            <span></span>
-            {item}
-          </li>
+          <Pill key={i} title={item}></Pill>
         ))}
-      </ul>
+      </div>
     </div>
   );
 }

@@ -2,7 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 import logo from "../images/logo.png";
 export default function Navbar() {
   return (
-    <nav className="navbar">
+    <nav className="navbar bg-success">
       <Link className="navbar-brand" to="/">
         <img src={logo} alt="logo" width="64"></img>
       </Link>

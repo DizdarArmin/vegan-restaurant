@@ -8,10 +8,11 @@ export default function Hero() {
     alignItems: "center",
     backgroundImage: `url(${HeroImage})`,
     backgroundSize: "cover",
+    padding: "24px !important",
   };
   return (
     <div style={style} className="container-fluid text-white">
-      <div className="text-right">
+      <div className="text-right p-5">
         <h1>The Green Chimney</h1>
         <h3>Vegan restaurant</h3>
       </div>

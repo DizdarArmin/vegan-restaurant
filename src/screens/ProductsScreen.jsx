@@ -1,5 +1,5 @@
-import Banner from "../components/Banner";
-import Product from "../components/Product";
+import Banner from "../components/details/Banner";
+import Product from "../components/details/Product";
 import PageNotFound from "./PageNotFound";
 import { useParams } from "react-router";
 import data from "../data/data.json";

@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 
-export default function HomeSection({ direction, title, image, description }) {
+export default function HomeSection({ data, direction }) {
+  console.log(data);
+  const { name, description, image } = data;
   const linkStyle = {
     color: "green",
   };
@@ -16,12 +18,12 @@ export default function HomeSection({ direction, title, image, description }) {
         </div>
         <div className="col-12 col-md-6 text-wrapper">
           <div>
-            <h3 className="text-capitalize">{title}</h3>
+            <h3 className="text-capitalize">{name}</h3>
             <br />
             <p>{description}</p>
             <br />
-            <Link style={linkStyle} to={`/${title}`}>
-              View menu
+            <Link style={linkStyle} to={name}>
+              <div className="btn btn-success menu-btn">View {name}</div>
             </Link>
           </div>
         </div>
