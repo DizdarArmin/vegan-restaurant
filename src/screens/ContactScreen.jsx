@@ -12,6 +12,7 @@ export default function ContactScreen() {
       <Banner image={image} title={name} lowImage={lowImage} />
       <div className="container padding-24 col-12 col-md-4 margin-0">
         <Hours hours={hours} />
+        <br />
         <h3>Address</h3>
         <p>Ursviksvägen 28, 172 76 Sundbyberg</p>
         <br />

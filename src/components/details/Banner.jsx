@@ -16,7 +16,7 @@ export default function Banner({ image, title, lowImage }) {
   };
 
   return (
-    <div style={style} className="container-fluid text-white">
+    <div style={style} className="container-fluid text-white padding-24">
       <div className="text-right">
         <h1 className="text-capitalize">{title}</h1>
       </div>

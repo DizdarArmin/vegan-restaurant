@@ -30,6 +30,7 @@ export default function Booking() {
       <p className="text-secondary">
         Name and last name must be longer then 3 characters
       </p>
+      <br />
       <button type="submit" className="btn btn-success  col-12">
         Book
       </button>

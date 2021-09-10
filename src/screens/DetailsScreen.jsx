@@ -21,7 +21,7 @@ export default function Details() {
     <div className="container-fluid">
       <Banner image={image} title={name} />
       <div className="container padding-24 col-12 margin-0">
-        <div className="padding-24 container details">
+        <div className=" container details">
           <p>{description}</p>
           <div className="row align-center">
             {ingredients && <Ingredients data={ingredients} />}
