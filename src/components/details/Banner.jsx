@@ -11,7 +11,7 @@ export default function Banner({ image, title, lowImage }) {
     filter: blur ? "blur(20px)" : "none",
     transition: blur ? "none" : "filter 0.5s ease-in",
     backgroundSize: "cover",
-    textShadow: "1px 1px gray ",
+    textShadow: "2px 2px 5px black ",
     backgroundPosition: "center",
   };
 

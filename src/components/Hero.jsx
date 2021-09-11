@@ -10,6 +10,7 @@ export default function Hero() {
     justifyContent: "center",
     alignItems: "center",
     backgroundImage: `url(${src})`,
+
     filter: blur ? "blur(20px)" : "none",
     transition: blur ? "none" : "filter 0.5s ease-in",
     backgroundSize: "cover",
@@ -17,7 +18,7 @@ export default function Hero() {
   };
   return (
     <div style={style} className="container-fluid text-white">
-      <div className="text-right p-5">
+      <div className="text-right p-5 shadow">
         <h1>The Green Chimney</h1>
         <h3>Vegan restaurant</h3>
       </div>
