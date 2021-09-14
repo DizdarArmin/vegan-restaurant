@@ -5,7 +5,7 @@ import DateTime from "./DateTime";
 import form from "../../data/form.json";
 
 export default function Booking() {
-  const [date, setDate] = useState(new Date().toLocaleDateString());
+  const [date, setDate] = useState();
   const [time, setTime] = useState();
 
   console.log(time);
